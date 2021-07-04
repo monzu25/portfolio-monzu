@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 45px;
+}
+.navy-color{
+    color: #EC6A96;
+
+}
+section{
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.top-banner{
+background-image: url(images/topbanner.jpg);
+background-repeat: no-repeat;
+}
+.welcome-image{
+    width: 45%;
+    padding-left: 50px;
+}
+
+.welcome-content{
+    width: 55%;
+    padding: 20px 20px 20px 80px;
+
+    
+}
+
+a:link, a:visited {
+    background-image: linear-gradient(#Ec6A96, #D297B8) ;
+    color: white;
+    padding: 10px;
+    text-align: center;   
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    height: 20px;
+    width: 150px;
+  }
