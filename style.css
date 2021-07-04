@@ -65,7 +65,7 @@ a:link, a:visited {
       width: 40%;
       margin-left: 5%;
       margin-right: 5%;
-      padding: 15px;
+      padding: 15px 15px 15px 40px;
       box-shadow: 10px 10px 40px gray;
       border-radius: 10px;
       text-align: justify;
