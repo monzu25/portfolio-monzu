@@ -5,11 +5,11 @@ body{
 h1{
     font-size: 45px;
 }
-.navy-color{
+.purpale-color{
     color: #EC6A96;
 
 }
-section{
+.flexible-container{
     display: flex;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -60,4 +60,39 @@ a:link, a:visited {
     background-image: url(images/secndackground.jpg);
     background-repeat: no-repeat;
     background-position-x: right;
+  }
+  .experience-items{
+      width: 40%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 15px;
+      box-shadow: 10px 10px 40px gray;
+      border-radius: 10px;
+      text-align: justify;
+      border-left: 10px solid gray;
+  }
+
+
+  .experiences-area{
+    background-image: url(images/experiencearea.png);
+    background-repeat: no-repeat;
+    
+
+  }
+  #web-developer-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(#4e15eb, #99c9ff);
+    border-image-slice:1;
+    border-radius: 10px;
+   
+  }
+  #full-developer-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(#c2357B, #ebd5d1, #ff3194);
+    border-image-slice:1;
+    border-radius: 10px;
+   
+  }
+  .foter{
+      text-align: center;
   }
