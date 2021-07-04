@@ -12,6 +12,7 @@ h1{
 section{
     display: flex;
     padding-top: 20px;
+    padding-bottom: 50px;
 
 }
 
@@ -27,6 +28,7 @@ background-repeat: no-repeat;
 .welcome-content{
     width: 55%;
     padding: 20px 20px 20px 80px;
+    text-align: justify;
 
     
 }
@@ -41,4 +43,21 @@ a:link, a:visited {
     border-radius: 5px;
     height: 20px;
     width: 150px;
+  }
+
+  .sec2-image{
+    width: 45%;
+    padding-left: 20px;
+    align-items: initial;
+  }
+  .sec2-content{
+    width: 55%;
+    padding: 20px 60px 20px 10px;
+    text-align: justify;
+  }
+
+  .sec2{
+    background-image: url(images/secndackground.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
   }
